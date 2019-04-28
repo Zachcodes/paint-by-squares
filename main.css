@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+.main-container {
+    height: 100%;
+    display: flex;
+}
+
+#canvas {
+    width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tool {
+    height: 100%;
+}
+
+.square-small {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.square-medium {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.square-large {
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+button {
+	border-radius: 5px;
+	border: 1px solid black;
+	height: 20px;
+	width: 30px;
+}
+
+.blue-button {
+	background-color: blue;
+}
+
+.black-button {
+	background-color: black;
+}
+
+.green-button {
+	background-color: green;
+}
+
+.red-button {
+	background-color: red;
+}
+
+.pink-button {
+	background-color: pink;
+}
+
+.yellow-button {
+	background-color: yellow;
+}
+
+.white-button {
+	background-color: white;
+}
+
+#color-span {
+	height: 20px;
+	width: 30px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+#tools-container {
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+	padding: 20px;
+}
+
+.button-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.spacing-bottom {
+	margin-bottom: 10px;
+}
+
+.button-main {
+	padding: 7px 10px;
+	background-color: #2aabe2;
+	color: white;
+	width: 100%;
+	height: 35px;
+	font-size: 20px;
+}

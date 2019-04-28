@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Paint By Squares</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="canvas"></div>
+      <div id="tools-container">
+        <div class="button-container" id="color-button-container">
+          <!-- Show the color on this span. Change it using bubbling to hit this class -->
+          <span id="color-span" class="spacing-bottom"></span>
+          <button
+            class="spacing-bottom white-button"
+            selectedColor="white"
+          ></button>
+          <button
+            class="spacing-bottom blue-button"
+            selectedColor="blue"
+          ></button>
+          <button
+            class="spacing-bottom black-button"
+            selectedColor="black"
+          ></button>
+          <button
+            class="spacing-bottom green-button"
+            selectedColor="green"
+          ></button>
+          <button
+            class="spacing-bottom red-button"
+            selectedColor="red"
+          ></button>
+          <button
+            class="spacing-bottom pink-button"
+            selectedColor="pink"
+          ></button>
+          <button
+            class="spacing-bottom yellow-button"
+            selectedColor="yellow"
+          ></button>
+        </div>
+        <div class="button-container">
+          <button class="spacing-bottom button-main" onclick="resetSpace()">
+            Reset Space
+          </button>
+          <button
+            class="spacing-bottom button-main"
+            onclick="resizeSquares('square-small')"
+          >
+            Small Squares
+          </button>
+          <button
+            class="spacing-bottom button-main"
+            onclick="resizeSquares('square-medium')"
+          >
+            Medium Squares
+          </button>
+          <button
+            class="spacing-bottom button-main"
+            onclick="resizeSquares('square-large')"
+          >
+            Large Squares
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
